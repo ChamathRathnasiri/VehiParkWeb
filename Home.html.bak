@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+
+      input[type=button] {
+  background-color: rgba(192,192,192,0.9);
+  color:black;
+  font-size: 45px;
+  font-family : Arial Rounded MT      
+  text-align: center;
+  border: none;     
+  width: 290px;
+	height: 80px;
+  border-radius: 30px;
+  cursor: pointer;
+  float: right;
+        
+}
+      input[type=button]:hover {
+  background-color: rgba(192,192,192,1.5);
+}
+
+</style> <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="Home.css">
+    <script id="applicationScript" type="text/javascript" src="Home.js"></script>
+  </head>
+  <body>
+    <div id="Home"> <img id="Background-image" src="Background-image.png" srcset="Background-image.png 1x, Background-image@2x.png 2x">
+      <svg class="Rectangle_2">
+        <rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="1920" height="220">
+        </rect> </svg>
+      <div onclick="application.goToTargetView(event)" id="Login_" style="top: 550px; left: 636px; width: 211px; height: 181px;">
+        <a href="file:///C:/Users/W.C.D%20Rathanasiri/Desktop/sgp/Resend/Resend.html"><input
+value="Login" type="button"></a> </div>
+      <div onclick="application.goToTargetView(event)" id="Sing_Up" style="top: 550px; left: 1125px; width: 211px; height: 181px;">
+        <a href="file:///C:/Users/W.C.D%20Rathanasiri/Desktop/sgp/Resend/Resend.html"><input
+value="Singup" type="button"></a> </div>
+      <img id="Rectangle_274" src="Rectangle_274.png" srcset="Rectangle_274.png 1x, Rectangle_274@2x.png 2x">
+      <div id="Lets_Make_Your_Own_Vehicle_Par"> <span>Let's Make Your Own<br>
+          Vehicle Park</span> </div>
+    </div>
+  </body>
+</html>

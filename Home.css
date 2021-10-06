@@ -1,0 +1,184 @@
+.mediaViewInfo {
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Home {
+	position: absolute;
+	width: 1899.4px;
+	height: 911px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Background-image {
+	position: absolute;
+	width: 1931.728px;
+	height: 1048.605px;
+	left: 0px;
+	top: -116.303px;
+	overflow: visible;
+}
+#login {
+	opacity: 0.25;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.login {
+	position: absolute;
+	overflow: visible;
+	width: 345px;
+	height: 80px;
+	left: 1087px;
+	top: 621px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+}
+#Rectangle_2 {
+	opacity: 0.25;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 220px;
+	left: -2px;
+	top: 176px;
+}
+#login_z {
+	opacity: 0.25;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.login_z {
+	position: absolute;
+	overflow: visible;
+	width: 345px;
+	height: 80px;
+	left: 517px;
+	top: 622px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+}
+#Login_ {
+	left: 636px;
+	top: 639px;
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Arial Rounded MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Sing_Up {
+	left: 1183px;
+	top: 638px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Arial Rounded MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_274 {
+	position: absolute;
+	width: 221px;
+	height: 187px;
+	left: 161px;
+	top: 195px;
+	overflow: visible;
+}
+#VehiPark {
+	left: 79px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 165px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial Rounded MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	color: rgba(0,0,0,1);
+}
+#Lets_Make_Your_Own_Vehicle_Par {
+	left: 555px;
+	top: 194px;
+	position: absolute;
+	overflow: visible;
+	width: 823px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Arial Rounded MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 81px;
+	color: rgba(0,0,0,1);
+}
